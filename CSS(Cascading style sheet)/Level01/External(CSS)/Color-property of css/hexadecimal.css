@@ -1,0 +1,28 @@
+body {
+background-color:purple;
+
+h1 {
+color:#fff; // this is code of white color hexadecimal (0------>16)(ff or f== red==blue==green)(f==16)
+
+}
+
+h2 {
+color:#ff00ff;// this is hexadecimal code of pink
+
+}
+
+
+h3 {
+color:#ffff00;// this is hexadecimal code of yellow
+
+}
+
+h4 {
+color: #00ffff;// this is hexadecimal code of aqua 
+
+}
+
+h5 {
+color: #000000;// this is hexadecimal code of blackss
+
+}

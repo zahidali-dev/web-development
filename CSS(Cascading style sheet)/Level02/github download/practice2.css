@@ -1,0 +1,47 @@
+*{
+text-align: center;
+font-family: arial;
+}
+
+#zahid {
+color: blue;
+}
+
+ .ali{
+color: white;
+background-color: cornflowerblue;
+}
+
+button{
+color: purple;
+background-color: azure;
+}
+
+input[type='checkbox']+label{
+color: purple;
+background-color: azure;
+}
+
+button:hover{
+color: blue;
+background-color: yellow;
+}
+
+p:nth-of-type(1){
+background-color: yellow;
+}
+
+p:nth-of-type(3n){
+background-color: yellow;
+}
+
+h1::first-letter{
+color: red;
+}
+
+
+input[type='checkbox']:checked+label{
+color: red;
+
+}
+

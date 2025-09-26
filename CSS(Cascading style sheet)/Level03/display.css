@@ -1,0 +1,13 @@
+h1{
+display: inline;
+}
+
+span{
+display: block;
+}
+span{
+border: 2px solid yellow;
+padding: 5%;
+margin: 10%;
+
+}

@@ -1,0 +1,124 @@
+
+* {
+font-family: arial;
+
+}
+
+h1, h3 {
+color:#b92b27;
+}
+
+#login {
+
+background-color:orange;
+}
+
+#signup {
+
+background-color:balck;
+color:blue
+}
+
+.zahid{
+background-color: aqua;
+color: blue;
+}
+
+/* #MyId p{
+color:yellow;
+background-color:magenta;
+} */
+
+/* descedant selector */
+/* div p {
+color:red;
+background-color: yellow;
+} */
+
+
+nav ul li a{
+color: red;
+}
+
+
+/* sibling combination of selector */
+p+h2 {
+color: red;
+}
+
+
+/* child combination of selector */
+div > input{
+background-color: gold;
+}
+
+
+/* attributive selector */
+
+input[type ="text"]{
+color : red;
+}
+
+
+input[type ="password"]{
+color : yellow;
+}
+
+
+/* pseudo class */
+
+/* Hover pseudo = selector:hover{  } */
+button:hover {
+background-color: red;
+color: magenta;
+}
+
+h3:hover{
+text-decoration: overline;
+color: orange;
+
+}
+
+/* active class */
+
+button:active{
+background-color:black;
+color: white;
+}
+
+/* checked class */
+input[type="radio"]:checked+label{
+background-color: red;
+color : white;
+}
+
+
+/* nth-type-of class */
+
+div:nth-of-type(3n){
+background-color: red;
+color: white;
+}
+
+/* pseudo elemnet*/
+/* first-letter*/
+h1::first-letter {
+color: black;
+}
+
+
+/* first-line*/
+p::first-line {
+color: blue;
+}
+
+/* selection*/
+p::selection{
+color: purple;
+}
+
+/* cascading */
+h4{
+color: red;
+}
+

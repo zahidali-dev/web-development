@@ -1,0 +1,35 @@
+h1{
+font-weight : 400;
+text-decoration:line-through;
+text-decoration-color:blue;
+text-decoration-style:dotted;
+letter-spacing:5px;
+font-family: arial;
+
+}
+
+h2{
+font-weight: 700;
+text-decoration: underline;
+text-decoration-color: aqua;
+text-decoration-style:dashed;
+font-family:ditod
+
+}
+
+h3{
+font-weight: 900;
+text-decoration: red wavy overline;
+text-family:sans-serf;
+
+}
+
+
+p{
+text-align: justify;
+text-decoration:double ;
+line-height: 4;
+font-size:10px;
+
+}
+

@@ -1,0 +1,54 @@
+img {
+width: 200px;
+height: 150px;
+background-image: url("pizza1.jpg");
+}
+/*     div{
+height: 200px;
+width: 200px;
+background-image: url('zk.jpg');
+background-size: cover;
+
+/*padding-top: 25px;
+padding-left: 15px;*/
+padding: 5em;
+text-family: arial;
+margin-top: 10px;
+/* it is apply only color alpha value range 0 ----> 1 */
+background-color: rgb(150, 0,256,0.8);
+/*border: 5px solid red;*/
+margin: 0 auto;
+/* how much take time shape change one form to an other form */
+/* transition-duration: 1s;  
+transition-delay: 2s;
+transition-timing-function: linear;
+transition-margin-top: margin-top; */
+
+/* shorthand transition */
+transition: margin-top 2s ease-in 2s;
+
+
+}
+
+div:hover {
+margin-top: 400px;
+background-color: red;
+border-radius: 50%; 
+
+}
+
+   /* #opacity{
+height: 300px;
+width: 300px;
+/* alpha value range 0 ----> 1 */
+background-color: rgb(0, 0,256,1);
+border: 5px solid red;
+
+border-radius: 50%;
+display: inline-block;
+/* opacity apply all elemnets
+opacity: 0;
+}
+ */                           
+                                     
+*/     

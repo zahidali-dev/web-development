@@ -1,0 +1,46 @@
+.face{
+width: 400px;
+height: 400px;
+background-color: #ffa511;
+margin-left: 30%;
+
+margin-top: 15%;
+border-radius: 50%;
+}
+
+.face1{
+width: 30px;
+height: 30px;
+background-color: black;
+border-radius: 50%;
+position: relative;
+top: 95px;
+left: 130px;
+
+
+}
+
+
+.face2{
+width: 30px;
+height: 30px;
+background-color: black;
+border-radius: 50%;
+position: relative;
+top: 70px;
+left: 260px;
+
+
+}
+
+
+.mouth{
+width: 200px;
+height: 75px;
+background-color: brown;
+border-radius: 0 0 50px 50px;
+position: relative;
+top: 170px;
+left: 100px;
+
+}

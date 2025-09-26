@@ -1,0 +1,91 @@
+/* Reset & font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Gradient background */
+body {
+  background: linear-gradient(135deg, #FFDEE9, #B5FFFC);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card container */
+.container {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 360px;
+}
+
+/* Heading with color accent */
+.container h1 {
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+  color: #333;
+  position: relative;
+}
+.container h1::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #FF9A9E, #FAD0C4);
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* Input styling */
+input[type="date"] {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  border: 2px solid #eee;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+input[type="date"]:focus {
+  border-color: #FF9A9E;
+  box-shadow: 0 0 8px rgba(255,154,158,0.4);
+}
+
+/* Button with playful effects */
+button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #FF9A9E, #FAD0C4);
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.15);
+}
+
+/* Result display */
+#result {
+  margin-top: 25px;
+  padding: 18px;
+  background: linear-gradient(135deg, #B5FFFC, #FFDEE9);
+  border-radius: 12px;
+  color: #333;
+  font-weight: 600;
+  min-height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.4;
+}
